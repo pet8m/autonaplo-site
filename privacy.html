@@ -11,10 +11,10 @@
 </head>
 <body>
 <h1>Adatvédelmi nyilatkozat</h1>
-<p>Utolsó frissítés: 2026. október 5.</p>
+<p>Utolsó frissítés: 2026. október 5. (2. audit után)</p>
 
 <h2>Milyen adatot kezel az alkalmazás?</h2>
-<p>Az Autónapló azokat az adatokat kezeli, amelyeket a felhasználó maga ad meg: autók adatai (típus, rendszám, évjárat), kilométeróra-állások, szervizbejegyzések és biztosítási adatok.</p>
+<p>Az Autónapló azokat az adatokat kezeli, amelyeket a felhasználó maga ad meg: autók adatai (típus, rendszám, évjárat, műszaki vizsga érvényessége), kilométeróra-állások, szervizbejegyzések és biztosítási adatok (biztosító neve, <strong>kötvényszám</strong>, a kockázatviselés kezdete). A közös adatfájl az <strong>eszközök nevét és azonosítóját</strong> is tartalmazza (az eszközlista és a szinkron miatt). Az Android-alkalmazás a bejelentkezett <strong>Google-fiók e-mail-címét</strong> csak az eszközön, titkosított tárban jegyzi meg a csendes újrabejelentkezéshez; ez nem kerül a fájlba.</p>
 
 <h2>Hol tárolódnak az adatok?</h2>
 <p>Az adatok a felhasználó eszközén és a felhasználó saját Google Drive-ján, egy <code>AutoNaplo</code> nevű mappában tárolódnak. A fejlesztő nem üzemeltet szervert, nem fér hozzá az adatokhoz, és nem gyűjt, nem tárol, nem oszt meg és nem ad át semmilyen felhasználói adatot harmadik félnek.</p>
@@ -26,7 +26,7 @@
 <p>Az alkalmazás nem tartalmaz hirdetést, nyomkövetést vagy elemzőszolgáltatást.</p>
 
 <h2>Törlés</h2>
-<p>Az adatok törléséhez töröld az <code>AutoNaplo</code> mappát a Google Drive-ról, és távolítsd el az alkalmazást.</p>
+<p>Az adatok teljes törléséhez: (1) töröld az <code>AutoNaplo</code> mappát (és ha létezik, az <code>AutoNaplo-dev</code> mappát) a Google Drive-ról, majd ürítsd a Drive kukáját; (2) vond vissza az alkalmazás hozzáférését a <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> oldalon; (3) távolítsd el az alkalmazást. <strong>Windowson</strong> a telepítő eltávolítása után a helyi adat a <code>%APPDATA%\hu.pet8m\autonaplo</code> mappában marad: ezt kézzel kell törölni.</p>
 
 <h2>Kapcsolat</h2>
 <p>peter@schwindt.hu</p>
@@ -34,11 +34,11 @@
 <hr>
 <h1>Privacy policy (English)</h1>
 <p>Last updated: 5 October 2026.</p>
-<p><strong>Data.</strong> Autónapló only handles the data the user enters: cars (type, plate, year), odometer readings, service entries and insurance details.</p>
+<p><strong>Data.</strong> Autónapló only handles the data the user enters: cars (type, plate, year, inspection expiry), odometer readings, service entries and insurance details (insurer, <strong>policy number</strong>, start date). The shared data file also contains the <strong>names and identifiers of the user's devices</strong>. The Android app remembers the signed-in <strong>Google account e-mail address</strong> only on the device, in encrypted storage, for silent re-sign-in; it is not written to the data file.</p>
 <p><strong>Storage.</strong> The data is stored on the user's device and in the user's own Google Drive, in a folder named <code>AutoNaplo</code>. The developer operates no server, has no access to the data, and does not collect, store, share or transfer any user data to third parties.</p>
 <p><strong>Google permission.</strong> The app requests only the <code>https://www.googleapis.com/auth/drive.file</code> scope, which gives access solely to files the app itself created. Other Drive files are not accessible to the app. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
 <p><strong>No analytics or ads.</strong> The app contains no advertising, tracking or analytics.</p>
-<p><strong>Deletion.</strong> Delete the <code>AutoNaplo</code> folder from Google Drive and uninstall the app.</p>
+<p><strong>Deletion.</strong> To delete everything: (1) delete the <code>AutoNaplo</code> folder (and the <code>AutoNaplo-dev</code> folder, if present) from Google Drive and empty the Drive trash; (2) revoke the app's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; (3) uninstall the app. <strong>On Windows</strong> the local data remains in <code>%APPDATA%\hu.pet8m\autonaplo</code> after uninstalling and must be deleted manually.</p>
 <p><strong>Contact.</strong> peter@schwindt.hu</p>
 </body>
 </html>
