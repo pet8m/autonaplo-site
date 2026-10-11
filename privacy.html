@@ -11,10 +11,13 @@
 </head>
 <body>
 <h1>Adatvédelmi nyilatkozat</h1>
-<p>Utolsó frissítés: 2026. október 5. (2. audit után)</p>
+<p>Utolsó frissítés: 2026. október 11. (3. audit után: Bluetooth és értesítések)</p>
 
 <h2>Milyen adatot kezel az alkalmazás?</h2>
 <p>Az Autónapló azokat az adatokat kezeli, amelyeket a felhasználó maga ad meg: autók adatai (típus, rendszám, évjárat, műszaki vizsga érvényessége), kilométeróra-állások, szervizbejegyzések és biztosítási adatok (biztosító neve, <strong>kötvényszám</strong>, a kockázatviselés kezdete). A közös adatfájl az <strong>eszközök nevét és azonosítóját</strong> is tartalmazza (az eszközlista és a szinkron miatt). Az Android-alkalmazás a bejelentkezett <strong>Google-fiók e-mail-címét</strong> csak az eszközön, titkosított tárban jegyzi meg a csendes újrabejelentkezéshez; ez nem kerül a fájlba.</p>
+
+<h2>Bluetooth és értesítések (csak az Android-alkalmazás)</h2>
+<p>A használat-emlékeztető funkcióhoz az alkalmazás – <strong>csak ha ezt a felhasználó bekapcsolja</strong> – két engedélyt kér: az <strong>értesítések</strong> megjelenítéséhez, és a <strong>közeli eszközök (Bluetooth)</strong> eléréséhez. A Bluetooth-engedéllyel az alkalmazás kilistázza a telefon párosított eszközeit, hogy a felhasználó megadhassa az autója kihangosítóját, és figyeli, hogy ez az <strong>egy kiválasztott eszköz</strong> mikor csatlakozik vagy szakad meg (a többi Bluetooth-eszközzel nem foglalkozik). Ennek hatására értesítés jelenik meg arról, hogy rögzítse az autó használatát. Az eszköz neve és címe, valamint a csatlakozások időpontjából álló rövid <strong>napló</strong> (legfeljebb 20 bejegyzés) csak a telefonon, az alkalmazás saját tárában van; <strong>nem kerül a Google Drive-ra, és sehová nem kerül továbbításra</strong>. Az engedélyek a telefon beállításaiban bármikor visszavonhatók; ilyenkor az automatikus emlékeztető nem működik, de az alkalmazás többi része igen.</p>
 
 <h2>Hol tárolódnak az adatok?</h2>
 <p>Az adatok a felhasználó eszközén és a felhasználó saját Google Drive-ján, egy <code>AutoNaplo</code> nevű mappában tárolódnak. A fejlesztő nem üzemeltet szervert, nem fér hozzá az adatokhoz, és nem gyűjt, nem tárol, nem oszt meg és nem ad át semmilyen felhasználói adatot harmadik félnek.</p>
@@ -33,8 +36,9 @@
 
 <hr>
 <h1>Privacy policy (English)</h1>
-<p>Last updated: 5 October 2026.</p>
+<p>Last updated: 11 October 2026.</p>
 <p><strong>Data.</strong> Autónapló only handles the data the user enters: cars (type, plate, year, inspection expiry), odometer readings, service entries and insurance details (insurer, <strong>policy number</strong>, start date). The shared data file also contains the <strong>names and identifiers of the user's devices</strong>. The Android app remembers the signed-in <strong>Google account e-mail address</strong> only on the device, in encrypted storage, for silent re-sign-in; it is not written to the data file.</p>
+<p><strong>Bluetooth and notifications (Android app only).</strong> For the usage-reminder feature the app – <strong>only if the user turns it on</strong> – asks for two permissions: <strong>notifications</strong>, and access to <strong>nearby devices (Bluetooth)</strong>. With the Bluetooth permission the app lists the phone's paired devices so the user can pick the car's hands-free unit, and watches when this <strong>one selected device</strong> connects or disconnects (it ignores all other Bluetooth devices). This triggers a notification reminding the user to log the car's usage. The device name and address and a short <strong>log</strong> of connection times (at most 20 entries) stay on the phone, in the app's private storage; they are <strong>never written to Google Drive and never sent anywhere</strong>. The permissions can be revoked at any time in the phone's settings; the automatic reminder then stops working, the rest of the app is unaffected.</p>
 <p><strong>Storage.</strong> The data is stored on the user's device and in the user's own Google Drive, in a folder named <code>AutoNaplo</code>. The developer operates no server, has no access to the data, and does not collect, store, share or transfer any user data to third parties.</p>
 <p><strong>Google permission.</strong> The app requests only the <code>https://www.googleapis.com/auth/drive.file</code> scope, which gives access solely to files the app itself created. Other Drive files are not accessible to the app. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
 <p><strong>No analytics or ads.</strong> The app contains no advertising, tracking or analytics.</p>
